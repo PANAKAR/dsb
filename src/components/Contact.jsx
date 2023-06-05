@@ -5,7 +5,6 @@ import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { slideIn, textVariant } from '../utils/motion'
 import {EarthCanvas} from './canvas/index'
-import { error } from 'jquery'
 
 //template_cuj93vs
 //service_25gj6l8
