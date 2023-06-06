@@ -24,7 +24,7 @@ const ServiceCard = ({index, title, icon, description}) => {
                             boxShadow: "10px 12px 9px gray" }}
                     >
                         <img src={icon} alt={title}
-                        className='w-25 h-25 object-contain'  />
+                        className='w-25 h-25 object-contain'  style={{width: "55%"}} />
                         <h3 className="text-black text-[20px] font-bold text-center">{title}</h3>
                         <br />
                         <h5 className="text-black text-[12px] font-bold text-center">{description}</h5>
