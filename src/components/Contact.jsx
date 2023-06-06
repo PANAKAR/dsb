@@ -61,8 +61,8 @@ const  Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
         style={{borderRadius: "85px"}}
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h1 className={styles.sectionHeadText}>Contact.</h1>
+        <p className="text-gray">Get in touch</p>
+        <h1 className="text-white font-bold">Contact.</h1>
 
         <form
           ref={formRef}
