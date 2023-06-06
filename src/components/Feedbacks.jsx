@@ -3,7 +3,7 @@ import { easeIn, motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, slideIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 import { easing } from "maath";
 
