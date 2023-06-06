@@ -62,7 +62,7 @@ const  Contact = () => {
         style={{borderRadius: "85px"}}
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h1 className={[styles.sectionHeadText, styles.marginLeft]}>Contact.</h1>
+        <h1 className={styles.sectionHeadText}>Contact.</h1>
 
         <form
           ref={formRef}
