@@ -21,7 +21,7 @@ const ServiceCard = ({index, title, icon, description}) => {
                         }}
                         className="text-black h-[400px] rounded-[20px] py-6 px-12 min-h-[290px] flex justify-evenly items-center flex-col"
                         style={{background: "white",
-                            boxShadow: "10px 15px 20px gray" }}
+                            boxShadow: "10px 12px 9px gray" }}
                     >
                         <img src={icon} alt={title}
                         className='w-25 h-25 object-contain'  />
@@ -43,7 +43,7 @@ function Services() {
             <h1 className={styles.heroHeadText}>Our Services.</h1>
         </motion.div>
 
-        <div className="mt-20 flex flex-wrap gap-10 h-35">
+        <div className="mt-20 flex flex-wrap gap-10 h-35 flex justify-center items-center">
             {services.map((services, index) => (
                 <ServiceCard key={services.title} index={index} 
                 {...services}/>
