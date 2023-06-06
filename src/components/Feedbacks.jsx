@@ -46,8 +46,8 @@ const Feedbacks = () => {
         className={`bg-gray-900 rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What Our Clients Say.</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p style={{fontSize: "150%", color: "ButtonFace"}}>What Our Clients Say.</p>
+          <h2 style={{fontSize: "300%", fontWeight: "bolder"}}>Testimonials.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
