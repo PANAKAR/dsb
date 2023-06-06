@@ -45,7 +45,7 @@ const Feedbacks = () => {
       <div
         className={`bg-gray-900 rounded-2xl ${styles.padding} min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <motion.div variants={slideIn('right', 'tween', 0.2, 1)}>
           <p style={{fontSize: "150%", color: "ButtonFace"}}>What Our Clients Say.</p>
           <h2 style={{fontSize: "300%", fontWeight: "bolder"}}>Testimonials.</h2>
         </motion.div>
