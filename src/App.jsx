@@ -6,6 +6,9 @@ import Feedbacks from "./components/Feedbacks"
 import Contact from "./components/Contact"
 import StarsCanvas from "./components/StarsCanvas"
 import Services from "./components/Services"
+import { motion } from "framer-motion"
+import { slideIn } from "./utils/motion"
+
 const App = () => {
   return (
     <BrowserRouter>
