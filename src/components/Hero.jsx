@@ -13,7 +13,7 @@ function Hero() {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white text-center text-bold mt-20 shadow-3xl`} style={{textShadow: "5px 2px 1px #ccc"}}>At DSB Media, We Create<span className="text-white" style={{textShadow: "5px 2px 1px #ccc"}}>, "FOR YOU." </span></h1>
+          <h1 className={`${styles.heroHeadText} text-white text-center text-bold mt-20 shadow-3xl`} style={{textShadow: "5px 2px 1px gray"}}>At DSB Media, We Create<span className="text-white" style={{textShadow: "5px 2px 1px gray"}}>, "FOR YOU." </span></h1>
         </div>
       </div> 
 
