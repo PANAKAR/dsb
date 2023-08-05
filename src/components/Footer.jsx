@@ -4,7 +4,7 @@ import { Logo } from '../assets';
 import { Link } from 'react-router-dom';
 import About from './About';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer-section">
     <div className="footer-top" >
