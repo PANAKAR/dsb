@@ -1,6 +1,7 @@
 import React from 'react'
 import './ChooseUs.css'
 import { asset22, asset6, asset5, asset10 } from '../assets'
+import Footer from './Footer'
 
 const ChooseUs = () => {
   return (
@@ -107,6 +108,7 @@ const ChooseUs = () => {
                 </div>
             </div>
         </div>
+      <Footer />
     </div>
   )
 }
