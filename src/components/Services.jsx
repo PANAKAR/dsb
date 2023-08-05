@@ -5,6 +5,7 @@ import {fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import './service.css'
 import { asset15, asset16, asset17, asset18, asset20, asset23, asset22, asset4} from '../assets';
+import Footer from './Footer';
 
 function Services() {
   return (
@@ -22,6 +23,7 @@ function Services() {
                 <label for="s4" id="slide4"><img src={asset18} alt="" /></label>
                 <label for="s5" id="slide5"><img src={asset20} alt="" /></label>
             </section>
+            <Footer />
     </>
   )
 }
