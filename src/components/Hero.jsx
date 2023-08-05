@@ -1,5 +1,8 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import './hero.css'
+import About from './About'
+
 
 function Hero() {
   return (
