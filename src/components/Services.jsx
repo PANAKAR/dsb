@@ -9,6 +9,10 @@ import { asset15, asset16, asset17, asset18, asset20, asset23, asset22, asset4} 
 function Services() {
   return (
     <>
+            <motion.div variants={textVariant()}>
+                <p className={styles.heroSubText}>What we provide</p>
+                <h1 className={styles.heroHeadText}>Our Services.</h1>
+            </motion.div>
             <section id="slider">
                 <input type="radio" name="slider" id="s1" checked />
                 <input type="radio" name="slider" id="s2" />
