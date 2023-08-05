@@ -1,7 +1,6 @@
 import React from 'react';
 import { Tilt } from 'react-tilt';
 import {easeIn, easeInOut, motion, spring} from 'framer-motion';
-import { styles } from '../styles';
 import {fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import './service.css'
