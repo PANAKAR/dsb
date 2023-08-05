@@ -107,7 +107,6 @@ const ChooseUs = () => {
                 </div>
             </div>
         </div>
-        <Footer />
     </div>
   )
 }
