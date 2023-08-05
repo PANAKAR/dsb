@@ -58,7 +58,7 @@ function Navbar() {
             </li>
             <li className="nav-item" style={{ flexDirection: "row", width: "100px"}}>
               <NavLink
-                to="/Whyus"
+                to="/Why us"
                 activeclassname="active"
                 className="nav-links"
                onClick={click ? handleClick : null}
