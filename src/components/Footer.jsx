@@ -4,7 +4,7 @@ import { Logo } from '../assets';
 import { Link } from 'react-router-dom';
 import About from './About';
 
-function footer() {
+function Footer() {
   return (
     <footer className="footer-section">
     <div className="footer-top" >
@@ -62,4 +62,4 @@ function footer() {
   )
 }
 
-export default footer;
+export default Footer;
