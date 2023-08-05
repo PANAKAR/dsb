@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Services from "./components/Services"
+import ChooseUs from "./components/ChooseUs"
 import { BrowserRouter as Router,  Link, Route, Routes} from "react-router-dom"
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/" element={<Hero />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/collections" element={<Services />} />
+          <Route path="/Why us" element={<ChooseUs />}/>
           <Route path="/contact" element={<Contact />}/>
         </Routes>
       </div>
