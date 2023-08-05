@@ -14,7 +14,6 @@ function Services() {
             <h1 className={styles.heroHeadText}>Our Services.</h1>
         </motion.div>
 
-         <motion.div variants={textVariant()}>
             <section id="slider">
                 <input type="radio" name="slider" id="s1" checked />
                 <input type="radio" name="slider" id="s2" />
@@ -28,7 +27,6 @@ function Services() {
                 <label for="s4" id="slide4"><img src={asset18} alt="" /></label>
                 <label for="s5" id="slide5"><img src={asset20} alt="" /></label>
             </section>
-        </motion.div>
     </>
   )
 }
