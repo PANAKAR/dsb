@@ -46,16 +46,7 @@ function Navbar() {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/collections"
-                onClick={click ? handleClick : null}
-                color={click ? "violet" : "white"}
-
-              >
-                Collections
-              </NavLink>
-            </li>
+            
             <li className="nav-item" style={{ flexDirection: "row", width: "100px"}}>
               <NavLink
                 to="/Whyus"
