@@ -8,6 +8,7 @@ import { SectionWrapper } from '../hoc';
 import './about.css'
 import { asset13, asset3, asset6} from '../assets';
 import { asset23 } from '../assets';
+import Footer from './footer';
 
 const ServiceCard = ({index, title, icon}) => {
     return (
@@ -135,7 +136,7 @@ function About() {
                 {...services}/>
             ))}
         </div> */}
-
+        <Footer />
     </>
   )
 }
